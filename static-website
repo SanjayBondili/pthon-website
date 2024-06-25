@@ -11,3 +11,6 @@ table = soup.find('table', class_='wikitable')
 
 # Extract the data into a DataFrame
 df = pd.read_html(str(table))[0]
+
+
+# End of the file
